@@ -1,0 +1,7 @@
+language: dart
+dart:
+- "2.4.0"
+
+dart_task:
+- dartanalyzer: --fatal-warnings bin
+- dartfmt
