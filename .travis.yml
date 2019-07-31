@@ -3,5 +3,6 @@ dart:
 - "2.4.0"
 
 dart_task:
+- test
 - dartanalyzer: --fatal-warnings bin
 - dartfmt
