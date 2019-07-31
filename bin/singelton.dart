@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class Singleton {
-  static final _singleton = new Singleton._internal();
+  static final _singleton = Singleton._internal();
   int id;
 
   factory Singleton() {

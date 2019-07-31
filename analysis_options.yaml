@@ -5,10 +5,12 @@ include: package:pedantic/analysis_options.yaml
 
 # For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
 # Uncomment to specify additional rules.
- linter:
-   rules:
-     - camel_case_types
-
+linter:
+  rules:
+    - camel_case_types
+    - file_names
+    - lines_longer_than_80_chars
+    - prefer_interpolation_to_compose_strings
+    - prefer_single_quotes
+    - sort_pub_dependencies
 analyzer:
-#   exclude:
-#     - path/to/excluded/files/**
